@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JPG to PNG Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>JPG to PNG Converter</h1>
+    <p>Welcome to our JPG to PNG Converter tool! Easily convert your JPG images to PNG format.</p>
+
+    <h2>How it Works</h2>
+    <p>Simply select a JPG image file using the button below and click 'Convert'. The tool will simulate the conversion
+      process and provide a download link for your converted PNG image.</p>
+
+    <h2>Supported Formats</h2>
+    <p>This tool accepts only JPG images for conversion to PNG format. Please ensure your file is in JPG format before
+      proceeding.</p>
+
+    <h2>Instructions</h2>
+    <ol>
+      <li>Click the 'Choose File' button below.</li>
+      <li>Select a JPG image file from your device.</li>
+      <li>Click 'Convert' to start the conversion.</li>
+      <li>Download your converted PNG file using the provided link.</li>
+    </ol>
+
+    <input type="file" accept="image/jpeg" id="jpgInput">
+    <button onclick="convertToPNG()">Convert</button>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
